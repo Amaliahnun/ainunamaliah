@@ -1,0 +1,82 @@
+*{padding: 0; margin: 0; font-family: arial;}
+
+.header{
+	width: 1276px;
+	background-color: yellow;
+    
+}
+
+.container{
+	padding: 20px;
+	text-align: center;
+}
+
+.container .teks{
+	font-size: 35px;
+	color: black;
+	text-shadow: 5px 5px 5px red;
+}
+/*bagian menu*/
+
+.menu{
+	width: 100px;
+	float: left;
+	background-image: linear-gradient(darkblue);
+}
+
+.menuutama ul>li{
+	float: left;
+	list-style: none;
+	text-transform: capitalize;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.menuutama ul>li{
+	text-decoration: none;
+	color: black;
+}
+
+.menuutama ul>li:hover{
+	background-color: red;
+}
+
+/*bagian isi content*/
+
+.isi{
+	width: 100%;
+	float: left;
+}
+
+.isinya .col3{
+	box-sizing: content-box;
+	margin: 0%;
+	width: 1200px;
+	float: left;
+	background-color: white;
+	border border-radius: 100px;
+}
+
+
+.judul{
+	width: 100%;
+	box-sizing: content-box;
+	background-image:linear-gradien (red);
+	padding: 50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.tanggal{
+	color: black;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+.isiberita{
+	padding: 100px;
+	text-align: justify;
+	width: 1250px;
+}
